@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>HelloHalmaiCSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <div class="boxed">
+            <strong><a href="../index.html">HOME</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong><a href="halmai-mcrae-template.html">BLOG</a></strong></div>
+    </head>
+    <body>
+        <h1>CSS Box Model</h1>
+        <h3 class="site-description">Border, Padding & Margins.</h3>
+        <h3 class="site-description">Explain?</h3>
+        <div class="blog-post">
+            <p>I know, they sound pretty similar. To explain the difference between these three properties, we need to add a fourth: content!</p>
+        <p>Look at the image below of the CSS box model and pretend it’s a framed photo you are planning to hang on a wall in your home.</p>
+        <img src= "https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" alt= "box-model">
+            <p><ul><li>The content is the photo.</li>
+                <li>The padding is the matting(or cardboard)that’s inside the frame. This highlights and compliments the photo.</li>
+                <li>The border is the photo frame.</li>
+                <li>The margin is the amount of wall space you want to leave between other photos you have hanging. You want it to look aesthetically pleasing right?</li>
+                </ul>
+            </p>
+            <h3>In CSS terminology:</h3>
+            <p><ul><li>Content can be a body of text, an image or a video clip.</li> 
+                    <li>Padding is used to create space around the content within the border.</li>
+                    <li>Borders surround the content area and padding.</li>
+                    <li>Margins are used to create space around the border.</li></ul></p>
+                <p>Each box is an element.</p>
+                <h3>Why does this matter?</h3>
+                <p>The box model concept is important because web browsers render each element on a web page as a rectangle(or box!). It is helpful for creating the design and layout of a web pages.</p>
+                <h3>How do I use them?</h3>
+                <p>Let’s imagine you have an image, and you’ve given it a class name in your CSS style sheet.</p>
+                <p>Now you’d like to add a border:</p>
+                <img src="codeexample1.png" alt="Adding a border to a class">
+                <p>Borders can be set with a specific width(px), style, and colour.</p>
+                <p>Great, you’ve added a solid white border around your image!</p>
+                <p>Now you’d like to add some padding:</p>
+                <img src="codeexample2.png" alt="Adding Padding to a class">
+                <p>This example puts 10 pixels of space between the image and the border, on all four sides. If you want to be more specific about the amount of padding on each side of a box’s content, you can use the following properties:</p>
+                <p><ul><li>padding-top</li>
+                    <li>padding-right</li>
+                    <li>padding-left</li>
+                    <li>padding-bottom</li></ul></p>
+                <p>Each property affects the padding on only one side of the box’s content, giving you more flexibility in customisation.</p>
+                <p>Now you’d like to be sure nothing on the page is going to come too close to your bordered, padded image. So add a margin:</p>
+                <img src="codeexample3.png" alt="Adding margin to a class">
+                <p>This example above will place 20 pixels of space on the outside of the paragraph’s box on all four sides. This means that other elements on the page cannot come within 20 pixels of the image’s border. Just like padding, if you want to be even more specific about the amount of margin on each side of a box, you can use the following properties:</p>
+                <p><ul><li>margin-top</li>
+                    <li>margin-right</li>
+                    <li>margin-left</li>
+                    <li>margin-bottom</li></ul></p>
+                <p>Check out <a href=https://www.htmlgoodies.com/css/css-border-padding-margin>HTMLgoodies</a> for  more detailed explanation and further examples of properties you can use!</p>
+                <p></p>
+
+        </div>
+
+    </body>
+</html>
