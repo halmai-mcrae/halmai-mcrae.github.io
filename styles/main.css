@@ -35,7 +35,7 @@ a:hover {
     border: 1px solid #94958b;
     color: lightgray;
   }
-  ul {
+ul {
       display: inline;
       font-family: 'Courier New', Courier, monospace;
       color: #94958b;
@@ -63,6 +63,13 @@ img {
     overflow: hidden;
 }
 @viewport {
-    width: device-width ;
-    zoom: 1.0 ;
+    width: device-width;
+    zoom: 1.0;
+    max-width: 400px;
+  }
+  @media screen and (max-width: 400px) {
+    h1 {
+        margin: 37.5;
+        font-size: 50%;
+    }
   }
