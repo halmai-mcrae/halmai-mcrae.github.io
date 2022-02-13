@@ -62,11 +62,6 @@ img {
     margin: 75px;
     overflow: hidden;
 }
-@viewport {
-    width: device-width;
-    zoom: 1.0;
-    max-width: 400px;
-  }
   @media screen and (max-width: 400px) {
     h1 {
         margin: 37.5;
