@@ -4,7 +4,7 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 0px;
-  }
+}
 body {
     background-color: blanchedalmond;
     text-align: center;
@@ -34,12 +34,12 @@ a:hover {
     background: white;
     border: 1px solid #94958b;
     color: lightgray;
-  }
+}
 ul {
-      display: inline;
-      font-family: 'Courier New', Courier, monospace;
-      color: #94958b;
-  }
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    color: #94958b;
+} 
 
 p {
     font-family: 'Courier New', Courier, monospace;
@@ -49,22 +49,24 @@ p {
     font-family: 'Courier New', Courier, monospace;
     padding: 0px;
 }
+
 img {
     background: white;
     border: 1.5px solid white;
     padding: 5px;
     width: 300px
-    
 }
+
 .blog-post {
     background: white;
     border: 1px solid white;
     margin: 75px;
     overflow: hidden;
+    box-shadow: 2px 4px #94958b;
 }
-  @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     h1 {
         margin: 37.5;
         font-size: 40%;
     }
-  }
+}
