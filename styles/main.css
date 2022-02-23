@@ -1,68 +1,70 @@
 .boxed {
-    border: 1px solid blanchedalmond;
+    border: 1px solid #D1A79F;
     text-align: left;
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 0px;
 }
 body {
-    background-color: blanchedalmond;
+    background-color: #D1A79F;
     text-align: center;
     line-height: 1.65;
     max-width: 100%;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
-    border: 1px solid white;
+    border: 1px solid #EDEDF0;
     font-size: 100px;
-    color: #94958b;;
+    color: #50535A;
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 75px;
     max-width: 100%;
 }
 h3 {
+    color: #131112;
     font-family: 'Courier New', Courier, monospace;
 }
 a {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: #131112;
     font-size: x-large;
     text-decoration: none;
 }
 a:hover {
-    background: white;
-    border: 1px solid #94958b;
-    color: lightgray;
+    background: #EDEDF0;
+    border: 1px solid #50535A;
+    color:  #50535A;
 }
 ul {
     display: inline;
     font-family: 'Courier New', Courier, monospace;
-    color: #94958b;
+    color: #50535A;
 } 
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    color: #94958b;
+    color: #50535A;
 }
 .site-description {
+    color: #131112;
     font-family: 'Courier New', Courier, monospace;
     padding: 0px;
 }
 
 img {
-    background: white;
-    border: 1.5px solid white;
+    background-color: #EDEDF0;
+    border: 1.5px solid #EDEDF0;
     padding: 5px;
     width: 300px
 }
 
 .blog-post {
-    background: white;
-    border: 1px solid white;
+    background: #EDEDF0;
+    border: 1px solid #EDEDF0;
     margin: 75px;
     overflow: hidden;
-    box-shadow: 2px 4px #94958b;
+    box-shadow: 2px 4px #50535A;
 }
 @media screen and (max-width: 400px) {
     h1 {
