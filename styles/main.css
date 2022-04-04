@@ -66,9 +66,26 @@ img {
     overflow: hidden;
     box-shadow: 2px 4px #50535A;
 }
+
+/* mobile screen */
 @media screen and (max-width: 400px) {
     h1 {
         margin: 37.5;
         font-size: 40%;
     }
+}
+
+/* desktop/laptop */
+@media only screen and (min-width: 1200px) {
+  .boxed {
+    max-width: 1200px;
+    }
+}
+
+/* tablet portrait */
+@media only screen and (max-width: 768px) {
+      h1 {
+        flex-wrap: wrap;
+        margin: 0;
+      }
 }
