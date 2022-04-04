@@ -71,7 +71,7 @@ img {
 @media screen and (max-width: 320px) {
     h1 {
         margin: 37.5;
-        font-size: 40%;
+        font-size: 25%;
     }
 }
 
